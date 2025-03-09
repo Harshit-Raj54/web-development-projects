@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: coral;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 2rem;
+    background-color: yellowgreen;
+    height: 50vh;
+    width: 50vh;
+}
+.container h2{
+    text-align: center;
+}
+.container input{
+    margin: 5px 0;
+    width: 95%;
+    border-radius: 2rem;
+    padding: 7px;
+    text-align: center;
+}
+.container_disp{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_disp img{
+    height: 40px;
+    width: 40px;
+}
+.container_disp i{
+    margin: 10px;
+    width: 20px;
+}
+.container_disp select{
+    border: none;
+    outline: none;
+    background-color: yellowgreen;
+    position: relative;
+    bottom: 15px;
+}
+select{
+    width: 55px;
+}
+option {
+    background-color: black;
+    color: #fff;
+}
+.msg_disp{
+    width: 100%;
+    margin: 10px 0;
+}
+.exchange_btn button{
+    width:100%;
+    padding: 7px;
+    background-color:brown;
+    margin : 10px 0;
+}
